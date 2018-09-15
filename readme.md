@@ -2,6 +2,14 @@
 
 ## Introduction
 
+### Why Event Storming
+
+### How to do Event Storming
+
+- Big Picture
+- Process Modelling
+- Software Design
+
 ## Big Picture
 
 ### Identify
@@ -83,6 +91,12 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 - Aggregates
 
 ### Example: Reset a forgotten password
+
+## Difference to other methods
+
+### User Story mapping
+
+### ...
 
 ## Links (refine later)
 
