@@ -1,6 +1,6 @@
 # Event Storming Tech Talk
 
-Artikel in [JAXenter](https://jaxenter.de/ddd-event-storming-50285)
+## Introduction
 
 ## Big Picture
 
@@ -26,7 +26,7 @@ Artikel in [JAXenter](https://jaxenter.de/ddd-event-storming-50285)
 
 ![Big Picture](big-picture-3.jpg)
 
-Read a [summary the workshop](https://medium.com/jugthde/domain-driven-design-renaissance-event-storming-a193db8ef887)
+Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design-renaissance-event-storming-a193db8ef887)
 
 ## Process Modelling
 
@@ -83,3 +83,8 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 - Aggregates
 
 ### Example: Reset a forgotten password
+
+## Links (refine later)
+
+Article in [JAXenter](https://jaxenter.de/ddd-event-storming-50285)
+
