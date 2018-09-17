@@ -2,17 +2,13 @@
 
 ## Why Event Storming
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
-
-![Cynefin](Cynefin.png)
-
 Taken from "50000 Orange Stickies Later", by Alberto Brandolini. [Slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and [talk](https://www.youtube.com/watch?v=1i6QYvYhlYQ). 
 
-## Scopes
+![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
+![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
 
-## Big Picture
+## Big Picture Event Storming
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-01.jpg)
 
@@ -27,6 +23,10 @@ Taken from "50000 Orange Stickies Later", by Alberto Brandolini. [Slides](https:
 ![50000 Orange Stickies Later](50000-orange-stickies-later-07.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-08.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-20.jpg)
 
 ### Value
 
@@ -49,6 +49,12 @@ Cynefin: Complex
 ![Big Picture](big-picture-3.jpg)
 
 Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design-renaissance-event-storming-a193db8ef887)
+
+## Other Scopes
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
+
+![Cynefin](Cynefin.png)
 
 ## Process Modelling
 
@@ -96,12 +102,6 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-17.jpg)
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
-
-![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
-
-![50000 Orange Stickies Later](50000-orange-stickies-later-20.jpg)
-
 
 ### Example: Change email address
 
@@ -135,18 +135,6 @@ Policy: Whenever an email address is reset, send confirmation mail
 or Event: Token is invalid or expired
 Read model: Password reset form with error message
 
-## Difference to other methods
-
-### User Story mapping
-
-### ...
+## Summary - different formats for different zoom levels
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
-
-## Links (refine later)
-
-- 
-- [Google Group](https://plus.google.com/communities/113258571348605620818)
-- [Alberto Brandolini's blog](http://ziobrando.blogspot.com/search/label/EventStorming)
-- Article in [JAXenter](https://jaxenter.de/ddd-event-storming-50285)
-
