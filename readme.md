@@ -2,7 +2,20 @@
 
 ## Why Event Storming
 
-Taken from "50000 Orange Stickies Later", by Alberto Brandolini. [Slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and [talk](https://www.youtube.com/watch?v=1i6QYvYhlYQ). 
+- (Domain) Event + (Brain) Storming
+
+- Fast and low overhead method 
+- Collaborative discovering and learning of a business domain
+- Creating a shared mental model
+- Decision enabler
+  - Bottlenecks and pain points?
+  - Buy or make? 
+  - Manual workarounds possible?
+  - Service boundaries?
+
+The following slides are taken from "50000 Orange Stickies Later", a talk by Alberto Brandolini. The complete 
+[slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and a video of the 
+[talk](https://www.youtube.com/watch?v=1i6QYvYhlYQ) are available online. 
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
 
@@ -27,18 +40,6 @@ Taken from "50000 Orange Stickies Later", by Alberto Brandolini. [Slides](https:
 ![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-20.jpg)
-
-### Value
-
-- Big Picture
-- Interactions and conversations
-- Learning the business domain
-- Decision enabler, Buy or make? Manual workarounds possible?
-
-Cynefin: Complex
-- Allow redundancy
-- Emergent model
-- Throw Away The Model
 
 ### Example: Organizing a meet-up
 
