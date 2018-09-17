@@ -4,15 +4,13 @@
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
 
+![Cynefin](Cynefin.png)
+
 Taken from "50000 Orange Stickies Later", by Alberto Brandolini. [Slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and [talk](https://www.youtube.com/watch?v=1i6QYvYhlYQ). 
 
 ## Scopes
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-00.jpg)
-
-![50000 Orange Stickies Later](50000-orange-stickies-later-09.jpg)
-
-![Cynefin](Cynefin.png)
+![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
 
 ## Big Picture
 
@@ -54,8 +52,6 @@ Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design
 
 ## Process Modelling
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-08.jpg)
-
 ![50000 Orange Stickies Later](50000-orange-stickies-later-09.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-10.jpg)
@@ -65,6 +61,8 @@ Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design
 ![50000 Orange Stickies Later](50000-orange-stickies-later-12.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-13.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-14.jpg)
 
 ### Example: Order process
 
@@ -92,17 +90,18 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 
 ## Software Design
 
-### Identify
+![50000 Orange Stickies Later](50000-orange-stickies-later-15.jpg)
 
-- Aggregates
-- Policies
-- Read Models
-- IDs
+![50000 Orange Stickies Later](50000-orange-stickies-later-16.jpg)
 
-### With
+![50000 Orange Stickies Later](50000-orange-stickies-later-17.jpg)
 
-- Events
-- Aggregates
+![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-20.jpg)
+
 
 ### Example: Change email address
 
@@ -141,6 +140,8 @@ Read model: Password reset form with error message
 ### User Story mapping
 
 ### ...
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
 
 ## Links (refine later)
 
