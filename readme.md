@@ -9,7 +9,7 @@
 - Creating a shared mental model
 - Decision enabler
   - Bottlenecks and pain points?
-  - Buy or make? 
+  - Identify core domain: Buy or make? 
   - Manual workarounds possible?
   - Service boundaries?
 
@@ -94,6 +94,8 @@ Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design
 ![Process Modelling](process-modelling-10.jpg)
 
 Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com/skillscasts/11518-know-the-flow-events-commands-and-long-running-services). Take a look at his [slides](https://speakerdeck.com/martinschimak/ddd-exchange-london-2018-know-the-flow-events-commands-and-long-running-services) for more details.
+
+![Process Modelling](process-modelling-example.jpg)
 
 ## Software Design
 
