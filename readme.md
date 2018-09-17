@@ -2,50 +2,33 @@
 
 ## Why Event Storming
 
-Value is in interaction between people
+![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
 
-## Prerequisites
-
-- all key stakeholders in the room (those with questions, those with answers)
-- unlimited modelling space
-- stickies and pens for everyone
-- no tables or chairs, no phones or computers
-
-## How To
-
-- Domain Events
-- Timeline
-- Edge Cases
+Taken from "50000 Orange Stickies Later", by Alberto Brandolini. [Slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and [talk](https://www.youtube.com/watch?v=1i6QYvYhlYQ). 
 
 ## Scopes
 
-- Big Picture
-- Process Modelling
-- Software Design
+![50000 Orange Stickies Later](50000-orange-stickies-later-00.jpg)
 
-Explain relation to Cynefin
-- Redundancy
-- Chaos
-- Throw away the model
+![50000 Orange Stickies Later](50000-orange-stickies-later-09.jpg)
+
+![Cynefin](Cynefin.png)
 
 ## Big Picture
 
-### Identify
+![50000 Orange Stickies Later](50000-orange-stickies-later-01.jpg)
 
-- Conflicts
-- Pain points
-- Goals
-- Where money is earned
-- Blockers
-- Bottlenecks
-- Boundaries
+![50000 Orange Stickies Later](50000-orange-stickies-later-02.jpg)
 
-### With
+![50000 Orange Stickies Later](50000-orange-stickies-later-03.jpg)
 
-- Events
-- Hot Spots
-- Systems
-- People
+![50000 Orange Stickies Later](50000-orange-stickies-later-05.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-06.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-07.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-08.jpg)
 
 ### Value
 
@@ -53,6 +36,11 @@ Explain relation to Cynefin
 - Interactions and conversations
 - Learning the business domain
 - Decision enabler, Buy or make? Manual workarounds possible?
+
+Cynefin: Complex
+- Allow redundancy
+- Emergent model
+- Throw Away The Model
 
 ### Example: Organizing a meet-up
 
@@ -66,19 +54,17 @@ Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design
 
 ## Process Modelling
 
-### Identify
+![50000 Orange Stickies Later](50000-orange-stickies-later-08.jpg)
 
-- Value proposition
-- Policies
-- Personas
-- Individual Goals
+![50000 Orange Stickies Later](50000-orange-stickies-later-09.jpg)
 
-### With
+![50000 Orange Stickies Later](50000-orange-stickies-later-10.jpg)
 
-- Events
-- Policies
-- Commands
-- Read Models
+![50000 Orange Stickies Later](50000-orange-stickies-later-11.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-12.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-13.jpg)
 
 ### Example: Order process
 
@@ -118,7 +104,37 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 - Events
 - Aggregates
 
-### Example: Reset a forgotten password
+### Example: Change email address
+
+Read model: Form with input fields for new email address and confirmation
+Command: Create change email request
+
+Aggregate: Change email request
+- New email is available? 
+- New email is valid?
+- Confirmation matches?
+- Is a change email process already active?
+
+Event: Started change email request, create token with limited lifetime
+or Event: Resume change email request, reset token lifetime
+Policy: Whenever the change email request has been started or resumed
+Command: Create email to old email address with activation link
+Event: Mail sent
+
+Policy (manual): Mail received by user
+Read model: mail
+Command: User clicks link in mail
+
+Aggregate: Change email request
+Event: Token is valid
+Read model: User can set a new password
+Command: set new password
+Event: Password reset
+Read model: Password reset successfully
+
+Policy: Whenever an email address is reset, send confirmation mail
+or Event: Token is invalid or expired
+Read model: Password reset form with error message
 
 ## Difference to other methods
 
@@ -128,7 +144,7 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 
 ## Links (refine later)
 
-- Alberto Brandolini's talk [50000 Orange Stickies Later](https://www.youtube.com/watch?v=1i6QYvYhlYQ)
+- 
 - [Google Group](https://plus.google.com/communities/113258571348605620818)
 - [Alberto Brandolini's blog](http://ziobrando.blogspot.com/search/label/EventStorming)
 - Article in [JAXenter](https://jaxenter.de/ddd-event-storming-50285)
