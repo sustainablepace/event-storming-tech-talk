@@ -97,6 +97,8 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 
 ![Process Modelling](process-modelling-example.jpg)
 
+A trivial example of process modelling, showing three diffreerent flows of order fulfillment: FFC 2.0, FFC 1.0, DHL
+
 ## Software Design
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-15.jpg)
