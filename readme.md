@@ -1,23 +1,22 @@
 # Event Storming Tech Talk
 
-## Why Event Storming
+## What is Event Storming
 
 - (Domain) Event + (Brain) Storming
-
-- Fast and low overhead method 
-- Collaborative discovering and learning of a business domain
-- Creating a shared mental model
+- Fast and low overhead method for collaborative discovering a business domain and enabling decisions
+- People > Processes: Fuzzy by design to enable conversations, empowering people to create a shared mental model
 - Decision enabler
-  - Bottlenecks and pain points?
   - Identify core domain: Buy or make? 
-  - Manual workarounds possible?
-  - Service boundaries?
+  - Bottlenecks and pain points? Manual workarounds possible?
+  - Context boundaries?
 
 The following slides are taken from "50000 Orange Stickies Later", a talk by Alberto Brandolini. The complete 
 [slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and a video of the 
 [talk](https://www.youtube.com/watch?v=1i6QYvYhlYQ) are available online. 
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
+
+Rashomon effect - let them figure out the truth by themselves, not by an analyst
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
 
@@ -40,6 +39,14 @@ The following slides are taken from "50000 Orange Stickies Later", a talk by Alb
 ![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-20.jpg)
+
+Indicators for clusters
+- cluster on timeline
+- triggered by potentially a single command
+- ends potentially with a single event
+- language different from other clusters
+- different stakeholders
+
 
 ### Example: Organizing a meet-up
 
