@@ -114,6 +114,8 @@ We need variations for less complex scenarios
 
 ### Example: Order process
 
+Policies might also represent context boundaries 
+
 ![Process Modelling](process-modelling-01.jpg)
 
 ![Process Modelling](process-modelling-02.jpg)
@@ -136,7 +138,11 @@ We need variations for less complex scenarios
 
 ![Process Modelling](process-modelling-example.jpg)
 
-A trivial example of process modelling, showing three different flows of order fulfillment: FFC 2.0, FFC 1.0, DHL
+An example of process modelling
+- 45 minute experiment by Team Turtlez
+- three different flows of order fulfillment: FFC 2.0, FFC 1.0, DHL (trivialized)
+- understanding of whole process is vague  
+- maybe an interesting experiment: are policies on the correct zoom level?
 
 ## Software Design
 
@@ -145,7 +151,6 @@ A trivial example of process modelling, showing three different flows of order f
 ![50000 Orange Stickies Later](50000-orange-stickies-later-16.jpg)
     
 ![50000 Orange Stickies Later](50000-orange-stickies-later-17.jpg)
-
 
 ### Example: Change email address
 
