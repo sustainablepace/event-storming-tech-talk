@@ -38,9 +38,11 @@ Slides are taken from
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-01.jpg)
 
+![Software Design Example](software-design/01.jpg)
+
 ![50000 Orange Stickies Later](50000-orange-stickies-later-02.jpg)
 
-## Finding the truth collaboratively (what happenend?)
+### Finding the truth collaboratively (what happenend?)
    
 ![50000 Orange Stickies Later](50000-orange-stickies-later-03.jpg)
 
@@ -48,27 +50,32 @@ Slides are taken from
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-05.jpg)
 
-## Outcome allows decision making
+### Outcome allows decision making
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-07.jpg)
 
+Blockers, bottlenecks, pain points
+
 ![50000 Orange Stickies Later](50000-orange-stickies-later-08.jpg)
+
+Context boundaries
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
 
-Success is measured by discarded post its -> a lot of conversation happened
+### Each discarded post-it represents a conversation or an act of learning
 
-Indicators for clusters
+![Learning](learning.jpg)
+
+### Example: Finding hot spots (Domain "Organizing a meet-up")
+
+![Big Picture](big-picture-1.jpg)
+
+Indicators for hot spots
 - cluster on timeline
 - triggered by potentially a single command
 - ends potentially with a single event
 - language different from other clusters
 - different stakeholders
-
-
-### Example: Organizing a meet-up
-
-![Big Picture](big-picture-1.jpg)
 
 ![Big Picture](big-picture-2.jpg)
 
@@ -133,7 +140,6 @@ A trivial example of process modelling, showing three different flows of order f
 
 ### Example: Change email address
 
-![Software Design Example](software-design/01.jpg)
 ![Software Design Example](software-design/02.jpg)
 ![Software Design Example](software-design/03.jpg)
 ![Software Design Example](software-design/04.jpg)
