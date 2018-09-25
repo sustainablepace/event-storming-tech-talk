@@ -187,6 +187,10 @@ Policy: Whenever an email address is reset, send confirmation mail
 or Event: Token is invalid or expired
 Read model: Password reset form with error message
 
+### Translate model easily to CQRS architecture
+
+![The picture that explains almost everything](almost-everything.jpg)
+
 ## Summary - different formats for different zoom levels
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
