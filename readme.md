@@ -6,7 +6,7 @@ Slides are taken from
 
 ## What is Event Storming tl;dr
 
-- Fast and low overhead method for collaborative discovering a business domain and enabling decision making, like
+- Fast and low overhead method for collaboratively discovering a business domain and enabling decision making, like
   - Identify core domain: Buy or make? 
   - Bottlenecks and pain points? Manual workarounds possible?
   - Context boundaries?
@@ -17,7 +17,7 @@ Slides are taken from
   - create a shared mental model
 - (Domain) Event + (Brain) Storming
 
-## Problem 
+## Motivation 
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
 
@@ -26,7 +26,7 @@ Slides are taken from
 - "If we had only asked Bob before"
 - Scrum doesn't help
 
-### Rashomon
+### Rashomon effect
 
 ![Rashomon](rashomon.jpg)
 
@@ -36,6 +36,10 @@ Slides are taken from
 ### Domain Events
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
+
+### Outline
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
 
 ## Big Picture Event Storming
 
