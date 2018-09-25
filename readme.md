@@ -33,11 +33,11 @@ Slides are taken from
 - One crime, four versions of the truth
 - avoid being the detective: let them figure out the truth by themselves
 
-### Domain Events
+## Domain Events
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
 
-### Outline
+### Domain Events allow zooming
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
 
