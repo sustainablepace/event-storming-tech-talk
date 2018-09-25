@@ -23,7 +23,7 @@ Slides are taken from
 
 - Understand the problem domain
 - Knowledge distribution
-- "If we had only asked Bob before"
+- "If only we had asked Bob"
 - Scrum doesn't help
 
 ### Rashomon effect
@@ -33,13 +33,6 @@ Slides are taken from
 - One crime, four versions of the truth
 - avoid being the detective: let them figure out the truth by themselves
 
-## Domain Events
-
-![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
-
-### Domain Events allow zooming
-
-![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
 
 ## Big Picture Event Storming
 
@@ -47,19 +40,21 @@ Slides are taken from
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-02.jpg)
 
+## Finding the truth collaboratively (what happenend?)
+   
 ![50000 Orange Stickies Later](50000-orange-stickies-later-03.jpg)
+
+![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-05.jpg)
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-06.jpg)
+## Outcome allows decision making
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-07.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-08.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
-
-![50000 Orange Stickies Later](50000-orange-stickies-later-20.jpg)
 
 Success is measured by discarded post its -> a lot of conversation happened
 
