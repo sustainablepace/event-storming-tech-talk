@@ -22,8 +22,8 @@ Slides are taken from
 ![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
 
 - Understand the problem domain
-- Knowledge distribution
-- "If only we had asked Bob"
+- "Is the problem they want solved the problem that needs to be solved?"
+- "If only we had asked Bob..."
 - Scrum doesn't help
 
 ### Rashomon effect
@@ -42,7 +42,7 @@ Slides are taken from
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-02.jpg)
 
-### Finding the truth collaboratively (what happenend?)
+### Finding the truth collaboratively (what happened?)
    
 ![50000 Orange Stickies Later](50000-orange-stickies-later-03.jpg)
 
@@ -87,7 +87,16 @@ Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
 
+### Big Picture for complex environments
+
 ![Cynefin](Cynefin.png)
+
+- low zoom events, birds eye view 
+- emerging model
+- defer consensus
+- identify probing opportunities
+
+We need variations for less complex scenarios
 
 ## Process Modelling
 
