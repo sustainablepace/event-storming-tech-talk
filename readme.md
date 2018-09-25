@@ -97,6 +97,7 @@ Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design
 - emerging model
 - defer consensus
 - identify probing opportunities
+- "throw away the model"
 
 We need variations for less complex scenarios
 
@@ -146,28 +147,35 @@ An example of process modelling
 
 ## Software Design
 
+![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
+
+### typically for complicated environments
+
 ![Cynefin](Cynefin.png)
 
-- Complicated
 - Scope is heavily constrained
 - Identify patterns, good practices
 - Consensus is needed
-
-![50000 Orange Stickies Later](50000-orange-stickies-later-16.jpg)
-    
-![50000 Orange Stickies Later](50000-orange-stickies-later-17.jpg)
+- maybe keep the model
 
 ### Example: Change email address
+
+Problem: Customer wants to change her email address in online shop
+
+Disclaimer: Not the original model, just a reconstruction
 
 Scope is constrained :
 ![Software Design Example](software-design/02.jpg)
 
-Pattern: Command, Aggregate, Event
+Pattern: Command, Aggregate (with invariants), Event
 ![Software Design Example](software-design/03.jpg)
+![50000 Orange Stickies Later](50000-orange-stickies-later-16.jpg)
+
 
 Decoupling with policies:
 ![Software Design Example](software-design/04.jpg)
 ![Software Design Example](software-design/05.jpg)
+![50000 Orange Stickies Later](50000-orange-stickies-later-12.jpg)
 
 Pattern repeats itself...model emerges
 ![Software Design Example](software-design/07.jpg)
@@ -175,6 +183,7 @@ Pattern repeats itself...model emerges
 Rethinking aggregates, introducing read models
 ![Software Design Example](software-design/08.jpg)
 ![Software Design Example](software-design/16.jpg)
+![50000 Orange Stickies Later](50000-orange-stickies-later-17.jpg)
 
 More read models...
 ![Software Design Example](software-design/09.jpg)
