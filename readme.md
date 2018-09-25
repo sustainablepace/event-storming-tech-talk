@@ -1,23 +1,37 @@
 # Event Storming Tech Talk
 
-## What is Event Storming
+Slides are taken from 
+- [50000 Orange Stickies Later](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) by Alberto Brandolini ([video](https://www.youtube.com/watch?v=1i6QYvYhlYQ))
+- [Know the Flow](https://speakerdeck.com/martinschimak/ddd-exchange-london-2018-know-the-flow-events-commands-and-long-running-services) by Martin Schimak ([video](https://skillsmatter.com/skillscasts/11518-know-the-flow-events-commands-and-long-running-services))
 
-- (Domain) Event + (Brain) Storming
-- Fast and low overhead method for collaborative discovering a business domain and enabling decision making
-- Individuals and interactions over processes and tools: Fuzzy by design to enable conversations, empowering people to create a shared mental model
-- Decision enabler
+## What is Event Storming tl;dr
+
+- Fast and low overhead method for collaborative discovering a business domain and enabling decision making, like
   - Identify core domain: Buy or make? 
   - Bottlenecks and pain points? Manual workarounds possible?
   - Context boundaries?
   - Building blocks?
+- Individuals and interactions over processes and tools
+  - enable conversations
+  - empower people
+  - create a shared mental model
+- (Domain) Event + (Brain) Storming
 
-The following slides are taken from "50000 Orange Stickies Later", a talk by Alberto Brandolini. The complete 
-[slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and a video of the 
-[talk](https://www.youtube.com/watch?v=1i6QYvYhlYQ) are available online. 
+## Problem 
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
 
-Rashomon effect - let them figure out the truth by themselves, not by an analyst
+- Understand the problem domain
+- Knowledge distribution
+- "If we had only asked Bob before"
+- Scrum doesn't help
+
+![Rashomon](rashomon.jpg)
+
+- Rashomon - One crime, four versions of the truth
+- avoid being the detective: let them figure out the truth by themselves
+
+### Domain Events
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-18.jpg)
 
@@ -102,8 +116,6 @@ Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design
 ![Process Modelling](process-modelling-09.jpg)
 
 ![Process Modelling](process-modelling-10.jpg)
-
-Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com/skillscasts/11518-know-the-flow-events-commands-and-long-running-services). Take a look at his [slides](https://speakerdeck.com/martinschimak/ddd-exchange-london-2018-know-the-flow-events-commands-and-long-running-services) for more details.
 
 ![Process Modelling](process-modelling-example.jpg)
 
