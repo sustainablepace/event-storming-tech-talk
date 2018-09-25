@@ -31,7 +31,7 @@ Slides are taken from
 ![Rashomon](rashomon.jpg)
 
 - One crime, four versions of the truth
-- avoid being the detective: let them figure out the truth by themselves
+- Avoid being the detective: let all stakeholders figure out the truth collaboratively
 
 
 ## Big Picture Event Storming
@@ -66,20 +66,20 @@ Context boundaries
 
 ![Learning](learning.jpg)
 
-### Example: Finding hot spots (Domain "Organizing a meet-up")
+### Example: Finding context boundaries (Domain "Organizing a meet-up")
 
 ![Big Picture](big-picture-1.jpg)
 
-Indicators for hot spots
+![Big Picture](big-picture-2.jpg)
+
+![Big Picture](big-picture-3.jpg)
+
+Indicators
 - cluster on timeline
 - triggered by potentially a single command
 - ends potentially with a single event
 - language different from other clusters
 - different stakeholders
-
-![Big Picture](big-picture-2.jpg)
-
-![Big Picture](big-picture-3.jpg)
 
 Read a [summary of the workshop](https://medium.com/jugthde/domain-driven-design-renaissance-event-storming-a193db8ef887)
 
