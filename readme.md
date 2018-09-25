@@ -26,9 +26,11 @@ Slides are taken from
 - "If we had only asked Bob before"
 - Scrum doesn't help
 
+### Rashomon
+
 ![Rashomon](rashomon.jpg)
 
-- Rashomon - One crime, four versions of the truth
+- One crime, four versions of the truth
 - avoid being the detective: let them figure out the truth by themselves
 
 ### Domain Events
