@@ -3,12 +3,13 @@
 ## What is Event Storming
 
 - (Domain) Event + (Brain) Storming
-- Fast and low overhead method for collaborative discovering a business domain and enabling decisions
-- People > Processes: Fuzzy by design to enable conversations, empowering people to create a shared mental model
+- Fast and low overhead method for collaborative discovering a business domain and enabling decision making
+- Individuals and interactions over processes and tools: Fuzzy by design to enable conversations, empowering people to create a shared mental model
 - Decision enabler
   - Identify core domain: Buy or make? 
   - Bottlenecks and pain points? Manual workarounds possible?
   - Context boundaries?
+  - Building blocks?
 
 The following slides are taken from "50000 Orange Stickies Later", a talk by Alberto Brandolini. The complete 
 [slides](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) and a video of the 
@@ -39,6 +40,8 @@ Rashomon effect - let them figure out the truth by themselves, not by an analyst
 ![50000 Orange Stickies Later](50000-orange-stickies-later-19.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-20.jpg)
+
+Success is measured by discarded post its -> a lot of conversation happened
 
 Indicators for clusters
 - cluster on timeline
@@ -104,18 +107,36 @@ Taken from [Martin Schimak's talk on process modelling](https://skillsmatter.com
 
 ![Process Modelling](process-modelling-example.jpg)
 
-A trivial example of process modelling, showing three diffreerent flows of order fulfillment: FFC 2.0, FFC 1.0, DHL
+A trivial example of process modelling, showing three different flows of order fulfillment: FFC 2.0, FFC 1.0, DHL
 
 ## Software Design
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-15.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-16.jpg)
-
+    
 ![50000 Orange Stickies Later](50000-orange-stickies-later-17.jpg)
 
 
 ### Example: Change email address
+
+![Software Design Example](software-design/01.jpg)
+![Software Design Example](software-design/02.jpg)
+![Software Design Example](software-design/03.jpg)
+![Software Design Example](software-design/04.jpg)
+![Software Design Example](software-design/05.jpg)
+![Software Design Example](software-design/06.jpg)
+![Software Design Example](software-design/07.jpg)
+![Software Design Example](software-design/08.jpg)
+![Software Design Example](software-design/09.jpg)
+![Software Design Example](software-design/10.jpg)
+![Software Design Example](software-design/11.jpg)
+![Software Design Example](software-design/12.jpg)
+![Software Design Example](software-design/13.jpg)
+![Software Design Example](software-design/14.jpg)
+![Software Design Example](software-design/15.jpg)
+![Software Design Example](software-design/16.jpg)
+![Software Design Example](software-design/17.jpg)
 
 Read model: Form with input fields for new email address and confirmation
 Command: Create change email request
