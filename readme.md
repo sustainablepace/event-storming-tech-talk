@@ -16,23 +16,25 @@ Slides are taken from
   - empower people
   - create a shared mental model
 - (Domain) Event + (Brain) Storming
+- Conceived by Alberto Brandolini, still evolving
 
 ## Motivation 
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
+### Understanding the problem domain is hard
 
-- Understand the problem domain
 - "Is the problem they want solved the problem that needs to be solved?"
+- Social problem
 - "If only we had asked Bob..."
 - Scrum doesn't help
 
-### Rashomon effect
+![50000 Orange Stickies Later](50000-orange-stickies-later-04.jpg)
+
+Round-robin interviews with all domain experts not ideal
 
 ![Rashomon](rashomon.jpg)
 
 - One crime, four versions of the truth
 - Avoid being the detective: let all stakeholders figure out the truth collaboratively
-
 
 ## Big Picture Event Storming
 
