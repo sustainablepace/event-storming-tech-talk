@@ -201,3 +201,7 @@ A model that could almost be implemented
 ## Summary - different formats for different zoom levels
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
+
+- Scrum Masters - an interesting methodology for your tool-belt
+- Product Owners - let your team and your stakeholders meet regularly
+- Developers - take event and policy zoom levels into account when before creating new microservices
