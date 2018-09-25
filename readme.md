@@ -174,8 +174,8 @@ Pattern: Command, Aggregate (with invariants), Event
 
 Decoupling with policies:
 ![Software Design Example](software-design/04.jpg)
-![Software Design Example](software-design/05.jpg)
 ![50000 Orange Stickies Later](50000-orange-stickies-later-12.jpg)
+![Software Design Example](software-design/05.jpg)
 
 Pattern repeats itself...model emerges
 ![Software Design Example](software-design/07.jpg)
@@ -186,19 +186,17 @@ Rethinking aggregates, introducing read models
 ![50000 Orange Stickies Later](50000-orange-stickies-later-17.jpg)
 
 More read models...
-![Software Design Example](software-design/09.jpg)
 ![Software Design Example](software-design/10.jpg)
 ![Software Design Example](software-design/11.jpg)
-![Software Design Example](software-design/12.jpg)
-![Software Design Example](software-design/13.jpg)
 ![Software Design Example](software-design/14.jpg)
 
-Learned a lot :)
+Success - a lot of new discoveries
 ![Software Design Example](software-design/17.jpg)
 
 A model that could almost be implemented
 ![Software Design Example](software-design/15.jpg)
 ![The picture that explains almost everything](almost-everything.jpg)
+![CQRS](cqrs.jpg)
 
 ## Summary - different formats for different zoom levels
 
