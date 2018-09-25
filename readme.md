@@ -100,8 +100,6 @@ We need variations for less complex scenarios
 
 ## Process Modelling
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-09.jpg)
-
 ![50000 Orange Stickies Later](50000-orange-stickies-later-10.jpg)
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-11.jpg)
@@ -146,7 +144,12 @@ An example of process modelling
 
 ## Software Design
 
-![50000 Orange Stickies Later](50000-orange-stickies-later-15.jpg)
+![Cynefin](Cynefin.png)
+
+- Complicated
+- Scope is heavily constrained
+- Identify patterns, good practices
+- Consensus is needed
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-16.jpg)
     
@@ -154,55 +157,36 @@ An example of process modelling
 
 ### Example: Change email address
 
+Scope is constrained :
 ![Software Design Example](software-design/02.jpg)
+
+Pattern: Command, Aggregate, Event
 ![Software Design Example](software-design/03.jpg)
+
+Decoupling with policies:
 ![Software Design Example](software-design/04.jpg)
 ![Software Design Example](software-design/05.jpg)
-![Software Design Example](software-design/06.jpg)
+
+Pattern repeats itself...model emerges
 ![Software Design Example](software-design/07.jpg)
+
+Rethinking aggregates, introducing read models
 ![Software Design Example](software-design/08.jpg)
+![Software Design Example](software-design/16.jpg)
+
+More read models...
 ![Software Design Example](software-design/09.jpg)
 ![Software Design Example](software-design/10.jpg)
 ![Software Design Example](software-design/11.jpg)
 ![Software Design Example](software-design/12.jpg)
 ![Software Design Example](software-design/13.jpg)
 ![Software Design Example](software-design/14.jpg)
-![Software Design Example](software-design/15.jpg)
-![Software Design Example](software-design/16.jpg)
+
+Learned a lot :)
 ![Software Design Example](software-design/17.jpg)
 
-Read model: Form with input fields for new email address and confirmation
-Command: Create change email request
-
-Aggregate: Change email request
-- New email is available? 
-- New email is valid?
-- Confirmation matches?
-- Is a change email process already active?
-
-Event: Started change email request, create token with limited lifetime
-or Event: Resume change email request, reset token lifetime
-Policy: Whenever the change email request has been started or resumed
-Command: Create email to old email address with activation link
-Event: Mail sent
-
-Policy (manual): Mail received by user
-Read model: mail
-Command: User clicks link in mail
-
-Aggregate: Change email request
-Event: Token is valid
-Read model: User can set a new password
-Command: set new password
-Event: Password reset
-Read model: Password reset successfully
-
-Policy: Whenever an email address is reset, send confirmation mail
-or Event: Token is invalid or expired
-Read model: Password reset form with error message
-
-### Translate model easily to CQRS architecture
-
+A model that could almost be implemented
+![Software Design Example](software-design/15.jpg)
 ![The picture that explains almost everything](almost-everything.jpg)
 
 ## Summary - different formats for different zoom levels
