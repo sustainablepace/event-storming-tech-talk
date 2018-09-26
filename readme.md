@@ -35,7 +35,7 @@ Round-robin interviews with all domain experts not ideal
 
 ![Rashomon](rashomon.jpg)
 
-- One crime, four versions of the truth
+- Rashomon: One crime, four versions of the truth
 - Avoid being the detective: let all stakeholders figure out the truth collaboratively
 
 ## Big Picture Event Storming
@@ -202,6 +202,6 @@ A model that could almost be implemented
 
 ![50000 Orange Stickies Later](50000-orange-stickies-later-21.jpg)
 
-- Scrum Masters - an interesting methodology for your tool-belt
-- Product Owners - let your team and your stakeholders meet regularly
+- Scrum Masters - an interesting methodology for your tool-belt that improves refinements
+- Product Owners - don't be the detective: let your team and your stakeholders meet regularly
 - Developers - take event and policy zoom levels into account when before creating new microservices
