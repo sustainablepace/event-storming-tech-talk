@@ -4,6 +4,8 @@ Slides are taken from
 - [50000 Orange Stickies Later](https://de.slideshare.net/ziobrando/50000-orange-stickies-later) by Alberto Brandolini ([video](https://www.youtube.com/watch?v=1i6QYvYhlYQ))
 - [Know the Flow](https://speakerdeck.com/martinschimak/ddd-exchange-london-2018-know-the-flow-events-commands-and-long-running-services) by Martin Schimak ([video](https://skillsmatter.com/skillscasts/11518-know-the-flow-events-commands-and-long-running-services))
 
+![Big Picture](big-picture-1.jpg)
+
 ## What is Event Storming tl;dr
 
 - Fast and low overhead method for collaboratively discovering a business domain and enabling decision making, like
@@ -69,8 +71,6 @@ Context boundaries
 ![Learning](learning.jpg)
 
 ### Example: Finding context boundaries (Domain "Organizing a meet-up")
-
-![Big Picture](big-picture-1.jpg)
 
 ![Big Picture](big-picture-2.jpg)
 
